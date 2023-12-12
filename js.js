@@ -11,3 +11,10 @@
         
         // نمایش پیغام با شماره ایندکس‌ها
         alert(`شماره ایندکس کاراکتر '${inputChar}' از ابتدا: ${indexFromStart}\nشماره ایندکس کاراکتر '${inputChar}' از انتها: ${indexFromEnd}`);
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+    errorElement: <ErrorPage />,
+  },
+]);
