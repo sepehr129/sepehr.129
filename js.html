@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEPEHR NAEEMI</title>
+    <style>
+body{
+    background-image: url(/img1.PNG);
+
+}
+    </style>
+</head>
+<body>
+
+    <img src="img1.PNG" alt="">
+
+    <script>
+        
+        // دریافت رشته از کاربر
+var inputString = prompt("لطفاً یک رشته وارد کنید:");
+
+// دریافت کاراکتر از کاربر
+var inputChar = prompt("لطفاً یک کاراکتر وارد کنید:");
+
+// یافتن ایندکس از ابتدا و انتها
+var indexFromStart = inputString.indexOf(inputChar);
+var indexFromEnd = inputString.lastIndexOf(inputChar);
+
+// نمایش پیغام با شماره ایندکس‌ها
+alert(`شماره ایندکس کاراکتر '${inputChar}' از ابتدا: ${indexFromStart}\nشماره ایندکس کاراکتر '${inputChar}' از انتها: ${indexFromEnd}`);
+    </script>
+</body>
+</html>
